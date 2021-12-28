@@ -1,4 +1,4 @@
-<main>
+main>
   <div class="mt-40 text-center text-success">
     <h1>
       <i class="far fa-check-circle"></i> 
@@ -7,7 +7,8 @@
   </div>
   <div class="mt-40 text-center">
     <div class="mt-20 text-center text-secondary border-placeholder">
-      Add details about the payment here!
+      <p>Total paid: $<span class="amount" data-amount="{{amount}}"></span></p>
+      <p>Payment ID (save for your records): {{ paymentIntentId }}</p>
     </div>
   </div>
 </main>
