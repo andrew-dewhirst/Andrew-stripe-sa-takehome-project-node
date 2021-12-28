@@ -15,7 +15,7 @@
     <div class="card box-shadow mt-40">
       <div class="card-body">
         <form id ="payment-form" name="payment-form" data-secret="{{ client_secret }}">
-          {{!-- Option to add email to payment form if needed for tracking, analytics, etc. Uncomment out lines 19 - 22 --}}
+          {{!-- Option to add email on checkout page if needed for tracking, analytics, etc. Not captured as part of Stripe payment form, some additional coding needed to utilize this piece of info. Uncomment out lines 19 - 22 --}}
           {{!-- <div>
             <label for="email">Email address</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="you@email.com">
